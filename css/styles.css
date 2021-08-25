@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;700&family=Style+Script&family=Ubuntu:wght@500&display=swap');
+
+/* NAVBAR */
+.fa-bars {
+    color: #3e008a !important;
+    font-size: 28px;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0 !important;
+}
+
+.nav-item {
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #3e008a !important;
+    font-family: Montserrat;;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid #7B88FF;
+    color: #7B88FF !important;
+}
+
+/* TITLE SECTION */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#title {
+    text-align: center;
+    background: #FFCC29;
+}
+
+#title p {
+    font-family: Montserrat;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.diary {
+    font-family: Style Script;
+    font-size: 5rem;
+}
+
+.titan {
+    font-family: Ubuntu;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.thanos {
+    height: auto;
+    width: 400px;
+}
+
+
+/* MEDIA */
+@media only screen and (max-width: 1080px) {
+    .diary {
+        font-size: 4rem;
+    }
+
+    .titan {
+        font-size: 3.5rem;
+    }
+
+    .thanos {
+        height: auto;
+        width: 300px;
+    }
+    
+}
