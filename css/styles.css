@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;700&family=Style+Script&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Passion+One:wght@700&family=Patua+One&family=Righteous&family=Special+Elite&display=swap');
 
 /* NAVBAR */
 .fa-bars {
@@ -11,7 +12,7 @@
 }
 
 .nav-item {
-    padding: 0 15px;
+    padding: 0 12px;
     text-transform: uppercase;
 }
 
@@ -29,7 +30,7 @@
 
 /* TITLE SECTION */
 .container-fluid {
-    padding: 7% 15%;
+    padding: 5% 15%;
 }
 
 #title {
@@ -39,7 +40,7 @@
 
 #title p {
     font-family: Montserrat;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     font-weight: 400;
 }
 
@@ -49,31 +50,191 @@
 }
 
 .titan {
-    font-family: Ubuntu;
-    font-size: 4.5rem;
+    font-family: Special Elite;
+    font-size: 4rem;
     font-weight: 500;
     margin-bottom: 0;
 }
 
 .thanos {
     height: auto;
-    width: 400px;
+    width: 600px;
 }
 
+/* GEMS */
+#gems {
+    background: #fff;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.gem {
+    cursor: pointer;
+    filter: drop-shadow(7px 7px 4px #383837);
+    width: 300px;
+}
+
+.gem:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+/* PROLOGUE */
+#prologue {
+    background: #fff;
+    padding: 5% 15%;
+    line-height: 1.5;
+}
+
+#prologue h1 {
+    font-family: Special Elite;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#prologue p {
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+#prologue img {
+    width: 125px;
+    margin: 20px 0;
+}
+
+.mask {
+    text-align: center;
+}
+
+/* POWER */
+#power {
+    background: #f5ebff;
+    padding: 5% 15%;
+    line-height: 1.5;
+}
+
+#power h1 {
+    font-family: Special Elite;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#power p {
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+#power img {
+    filter: drop-shadow(7px 7px 4px #383837);
+    width: 175px;
+    margin: 20px 0;
+}
+
+.power-gem {
+    text-align: center;
+}
+
+/* SOUL */
+#soul {
+    background: #fff;
+    padding: 5% 15%;
+    line-height: 1.5;
+}
+
+#soul h1 {
+    font-family: Special Elite;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#soul p {
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+#soul img {
+    filter: drop-shadow(7px 7px 4px #383837);
+    width: 175px;
+    margin: 20px 0;
+}
+
+.soul-gem {
+    text-align: center;
+}
+
+/* TIME */
+#time {
+    background: #FEFFDE;
+    padding: 5% 15%;
+    line-height: 1.5;
+}
+
+#time h1 {
+    font-family: Special Elite;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#time p {
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+#time img {
+    filter: drop-shadow(7px 7px 4px #383837);
+    width: 175px;
+    margin: 20px 0;
+}
+
+.time-gem {
+    text-align: center;
+}
 
 /* MEDIA */
 @media only screen and (max-width: 1080px) {
-    .diary {
-        font-size: 4rem;
-    }
 
     .titan {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 
     .thanos {
         height: auto;
-        width: 300px;
+        width: 315px;
     }
-    
+
+    #prologue p {
+        font-size: 1.5rem;
+    }
+
+    #power p {
+        font-size: 1.5rem;
+    }
+
+    #soul p {
+        font-size: 1.5rem;
+    }
+
+    #time p {
+        font-size: 1.5rem;
+    }
 }
