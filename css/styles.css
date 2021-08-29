@@ -82,7 +82,7 @@
 /* PROLOGUE */
 #prologue {
     background: #fff;
-    padding: 5% 15%;
+    padding: 5% 16%;
     line-height: 1.5;
 }
 
@@ -114,7 +114,7 @@
 /* POWER */
 #power {
     background: #f5ebff;
-    padding: 5% 15%;
+    padding: 5% 16%;
     line-height: 1.5;
 }
 
@@ -147,7 +147,7 @@
 /* SOUL */
 #soul {
     background: #fff;
-    padding: 5% 15%;
+    padding: 5% 16%;
     line-height: 1.5;
 }
 
@@ -180,7 +180,7 @@
 /* TIME */
 #time {
     background: #FEFFDE;
-    padding: 5% 15%;
+    padding: 5% 16%;
     line-height: 1.5;
 }
 
@@ -213,7 +213,7 @@
 /* SPACE */
 #space {
     background: #fff;
-    padding: 5% 15%;
+    padding: 5% 16%;
     line-height: 1.5;
 }
 
@@ -246,7 +246,7 @@
 /* REALITY */
 #reality {
     background: #F7F3E9;
-    padding: 5% 15%;
+    padding: 5% 16%;
     line-height: 1.5;
 }
 
@@ -273,6 +273,39 @@
 }
 
 .reality-gem {
+    text-align: center;
+}
+
+/* MIND */
+#mind {
+    background: #fff;
+    padding: 5% 16%;
+    line-height: 1.5;
+}
+
+#mind h1 {
+    font-family: Special Elite;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#mind p {
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+#mind img {
+    filter: drop-shadow(7px 7px 4px #383837);
+    width: 175px;
+    margin: 20px 0;
+}
+
+.mind-gem {
     text-align: center;
 }
 
@@ -309,6 +342,10 @@
     }
 
     #reality p {
+        font-size: 1.5rem;
+    }
+
+    #mind p {
         font-size: 1.5rem;
     }
 }
