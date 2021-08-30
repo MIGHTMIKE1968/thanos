@@ -452,32 +452,65 @@
         width: 315px;
     }
 
+    #prologue h1 {
+        font-size: 2.5rem;
+    }
+
     #prologue p {
         font-size: 1.5rem;
+    }
+
+    #power h1 {
+        font-size: 2.5rem;
     }
 
     #power p {
         font-size: 1.5rem;
     }
 
+    #soul h1 {
+        font-size: 2.5rem;
+    }
+
     #soul p {
         font-size: 1.5rem;
+    }
+
+    #time h1 {
+        font-size: 2.5rem;
     }
 
     #time p {
         font-size: 1.5rem;
     }
 
+    #space h1 {
+        font-size: 2.5rem;
+    }
+
     #space p {
         font-size: 1.5rem;
+    }
+
+    #reality h1 {
+        font-size: 2.5rem;
     }
 
     #reality p {
         font-size: 1.5rem;
     }
 
+
+    #mind h1 {
+        font-size: 2.5rem;
+    }
+
     #mind p {
         font-size: 1.5rem;
+    }
+
+    #epilogue h1 {
+        font-size: 2.5rem;
     }
 
     #epilogue p {
